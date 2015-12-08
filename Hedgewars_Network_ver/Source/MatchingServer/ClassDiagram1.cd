@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TransportUDP" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAwAAQAAAQAMQQBAgMAAAMAUACCCAgAYgQBFAAEFAQI=</HashCode>
+      <FileName>Assets\Scripts\TransportUdp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MatchingServer" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYQAYEQAACIAIIAAAAogAACAgJAAAEEAAACIACAAEAA=</HashCode>
+      <FileName>Assets\Scripts\MatchingServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Network" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAZAARAAAAIAgABgAEAAAMAQQAAAAAAQBAAAQAABAEA=</HashCode>
+      <FileName>Assets\Scripts\Network.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetConfig" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAACAAAAAAAAABAAAAAAAAAAEAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NetworkDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetEventState" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NetworkDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchingRequestPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MatchingResponsePacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SearchRoomPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SessionPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EquipmentPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSyncPacket" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="GameSyncPacket.GameSyncerializer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Packet.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterDataPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AttackPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AttackPacket.AttackDataSerializer">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Packet.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ItemPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DoorPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RoomPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ItemUsePacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonsterPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HitPointPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DamageDataPacket" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DamageNotifyPacket" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummonPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BossDirectPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="BossDirectPacket.DirectAttackSerializer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Packet.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BossRangePacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PrizePacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PrizeResultPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatPacket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacketQueue" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAQAgAAAJAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeaderSerializer" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serializer" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQAAAAAAAAAIBAAAQAAASBAIAIAAAAAAABAABA=</HashCode>
+      <FileName>Assets\Scripts\Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Session&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIyAAwBAAAAgAECoEUwBAMgYwAAAAAAYAAACAIkhIAA=</HashCode>
+      <FileName>Assets\Scripts\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionTCP" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\SessionTcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionUDP" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAABAAAAEAAAAAAIAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\SessionUdp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransportTCP" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIwAAQBAAAAMQQBAAMAAAMAQACCCAAAYAABEAAEBBQA=</HashCode>
+      <FileName>Assets\Scripts\TransportTcp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="PacketHeader" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MatchingRequest" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAgAAAAAAAACAAAEEAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MatchingResponse" Collapsed="true">
+    <Position X="11.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAABAAAAACAAAAEAAQAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoomInfo" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAEAAQAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SearchRoomResponse" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="EndPointData" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SessionData" Collapsed="true">
+    <Position X="14.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAABEAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CharEquipment" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GameSyncInfo" Collapsed="true">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ItemData" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAACAAAAAAAAAAAAAAAAAAAAEQAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CharacterCoord" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAgABAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CharacterData" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAgAABAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AttackData" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonsterData" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DamageData" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABgAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HpData" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CharDoorState" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAACAAAAAAAAAIAAAgAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MovingRoom" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ItemUseData" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAIQAACAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SummonData" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BossDirectAttack" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BossRangeAttack" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PrizeData" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PrizeResultData" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ChatMessage" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="IPacket&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IPacket.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITransport" Collapsed="true">
+    <Position X="7.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAEAQAAAEAAAIAQAACAAAAYAAAEAAEBAAA=</HashCode>
+      <FileName>Assets\Scripts\Transport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NetEventType" Collapsed="true">
+    <Position X="11.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\NetworkDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NetEventResult" Collapsed="true">
+    <Position X="9.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NetworkDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TransportRequest" Collapsed="true">
+    <Position X="14.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacketId" Collapsed="true">
+    <Position X="13" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAQgwBAAARBAEAAAAgAggAACgAAwAAACAgCAAIA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MatchingRequestId" Collapsed="true">
+    <Position X="6" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAIAAAAAAAAAAgAAAAAAAAAAAACAAEAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MatchingResult" Collapsed="true">
+    <Position X="7.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAgAAAQBAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PacketStructs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="EventHandler" Collapsed="true">
+    <Position X="6" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Transport.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

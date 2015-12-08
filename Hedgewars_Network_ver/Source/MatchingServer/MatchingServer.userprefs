@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\Unity\NetworkProgramming\Hedgewars_unity_matchingserver\Assets\3. Scripts\Network.cs">
+    <Files>
+      <File FileName="..\..\..\..\..\..\Unity\NetworkProgramming\Hedgewars_unity_matchingserver\Assets\3. Scripts\TransportTCP.cs" Line="28" Column="26" />
+      <File FileName="..\..\..\..\..\..\Unity\NetworkProgramming\Hedgewars_unity_matchingserver\Assets\3. Scripts\Network.cs" Line="21" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
